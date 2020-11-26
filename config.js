@@ -15,8 +15,8 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of The Way of Saint James - Northern Way',
             location: {
-                center: [2.305, 40.622],
-                zoom: 5.35,
+                center: [2.305, 40.602],
+                zoom: 5.50,
                 pitch: 0.00,
                 bearing: 0.00
             },
