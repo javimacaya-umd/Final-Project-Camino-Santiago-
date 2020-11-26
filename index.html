@@ -1,3 +1,5 @@
+<! -- Mapbox Interactive Storytelling, adapted from source: https://labs.mapbox.com/education/impact-tools/interactive-storytelling/ -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,13 +19,15 @@
         a, a:hover, a:visited {
             color: #0071bc;
         }
-        #map {
+        /* Making the map full-screen and fixing map height, source: view-source:https://kristofj-umd.github.io/webdev-f19/assignments/webdev3.html */
+        #map { 
             top: 60px; 
             height: calc(100vh - 60px);
             width:100%;
             position: fixed;
 
         } 
+        /* Styling for header, adapted from source: view-source:https://kristofj-umd.github.io/webdev-f19/assignments/webdev3.html */ 
         #header {
             top: 0;
             width: 100%;
@@ -36,6 +40,7 @@
             overflow: hidden;
             font-family: Helvetica, sans-serif;
         }
+        /* Header children styling, putting everything on the same line, adapted from source: view-source:https://kristofj-umd.github.io/webdev-f19/assignments/webdev3.html */
         #header * {
             display: inline-block;
             margin-right: 20px;
