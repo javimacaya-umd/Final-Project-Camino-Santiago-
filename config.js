@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/javimacaya/ckhnmedcp0n6s19l2djce014r',
+    style: 'mapbox://styles/javimacaya/ckhy9pr8h1lqh19loy3tftcdz',
     accessToken: 'pk.eyJ1IjoiamF2aW1hY2F5YSIsImEiOiJja2ZpZndjMDgwOGFyMnBrdXIxbTlhNzhwIn0.dY2Ij8lB1KyP28WBXthpCg',
     showMarkers: false,
     theme: 'dark',
@@ -15,22 +15,22 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of The Way of Saint James - Northern Way',
             location: {
-                center: [-3.51086, 40.43947],
-                zoom: 5.85,
+                center: [2.305, 40.622],
+                zoom: 5.35,
                 pitch: 0.00,
                 bearing: 0.00
             },
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1
-                // }
+                 //{
+                 //    layer: 'towns',
+                 //     opacity: 1
+                 //}
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                 //{
+                 //    layer: 'overview-towns',
+                 //   opacity: 0
+                 //}
             ]
         },
         {
