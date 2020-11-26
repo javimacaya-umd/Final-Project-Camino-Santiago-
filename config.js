@@ -1,13 +1,15 @@
+// Mapbox Interactive Storytelling, adapted from source: https://labs.mapbox.com/education/impact-tools/interactive-storytelling/ 
+
 var config = {
-    style: 'mapbox://styles/javimacaya/ckhy9pr8h1lqh19loy3tftcdz',
+    style: 'mapbox://styles/javimacaya/ckhy9pr8h1lqh19loy3tftcdz', // "Way Saint James - Northern Way" mapbox style
     accessToken: 'pk.eyJ1IjoiamF2aW1hY2F5YSIsImEiOiJja2ZpZndjMDgwOGFyMnBrdXIxbTlhNzhwIn0.dY2Ij8lB1KyP28WBXthpCg',
     showMarkers: false,
     theme: 'dark',
     alignment: 'right',
     title: 'The Way of Saint James - Northern Way',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By Javier Macaya Garcia',
-    footer: 'Source: source citations, etc.',
+    byline: 'By Javier Macaya Garcia', // author
+    footer: 'Source: source citations, etc.', // for citations
     chapters: [
         {
             id: 'chapter_1',
@@ -21,16 +23,16 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                 //{
-                 //    layer: 'towns',
-                 //     opacity: 1
-                 //}
+                 // {
+                 //    layer: 'layer-name',
+                 //    opacity: 1
+                 // }
             ],
             onChapterExit: [
-                 //{
-                 //    layer: 'overview-towns',
-                 //   opacity: 0
-                 //}
+                 // {
+                 //     layer: 'layer-name',
+                 //     opacity: 0
+                 // }
             ]
         },
         {
