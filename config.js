@@ -41,10 +41,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 1: Irún - San Sebastián',
             location: {
-                center: [-1.84667, 43.33137],
-                zoom: 12.47,
-                pitch: 60.00,
-                bearing: -44.92
+                center: [-1.81769, 43.34310],
+                zoom: 11.48,
+                pitch: 40.00,
+                bearing: -16.46
             },
             onChapterEnter: [
                 // {
@@ -65,10 +65,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 2: San Sebastian - Zarautz',
             location: {
-                center: [-2.06368, 43.29164],
-                zoom: 12.47,
-                pitch: 60.00,
-                bearing: -9.72
+                center: [-1.99139, 43.30755],
+                zoom: 11.48,
+                pitch: 40.00,
+                bearing: -16.46
             },
             onChapterEnter: [
                 // {
@@ -89,10 +89,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 3: Zarautz - Deba',
             location: {
-                center: [-2.25841, 43.28764],
-                zoom: 12.47,
-                pitch: 60.00,
-                bearing: 0.00
+                center: [-2.18673, 43.27313],
+                zoom: 11.48,
+                pitch: 40.00,
+                bearing: 15.26
             },
             onChapterEnter: [
                 // {
@@ -113,10 +113,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 4: Deba - Markina',
             location: {
-                center: [-2.42684, 43.26777],
-                zoom: 12.81,
-                pitch: 60.00,
-                bearing: -9.01
+                center: [-2.36252, 43.28815],
+                zoom: 11.70,
+                pitch: 40.00,
+                bearing: -14.36
             },
             onChapterEnter: [
                 // {
@@ -137,10 +137,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 5: Markina - Gernika',
             location: {
-                center: [-2.60224, 43.28041],
-                zoom: 12.45,
-                pitch: 60.00,
-                bearing: 24.00
+                center: [-2.51861, 43.26025],
+                zoom: 11.45,
+                pitch: 40.00,
+                bearing: 27.20
             },
             onChapterEnter: [
                 // {
@@ -161,10 +161,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 6: Gernika - Lezama',
             location: {
-                center: [-2.74708, 43.29285],
-                zoom: 12.64,
-                pitch: 60.00,
-                bearing: -29.60
+                center: [-2.70036, 43.30478],
+                zoom: 11.81,
+                pitch: 40.00,
+                bearing: -19.20
             },
             onChapterEnter: [
                 // {
@@ -185,10 +185,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 7: Lezama - Bilbao',
             location: {
-                center: [-2.91142, 43.25645],
-                zoom: 12.94,
-                pitch: 60.00,
-                bearing: 25.81
+                center: [-2.85042, 43.28141],
+                zoom: 12.42,
+                pitch: 40.00,
+                bearing: -19.20
             },
             onChapterEnter: [
                 // {
@@ -209,10 +209,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 8: Bilbao - Portugalete',
             location: {
-                center: [-3.00020, 43.28259],
-                zoom: 13.01,
-                pitch: 60.00,
-                bearing: 57.01
+                center: [-2.93256, 43.27154],
+                zoom: 12.10,
+                pitch: 40.00,
+                bearing: 22.74
             },
             onChapterEnter: [
                 // {
@@ -233,10 +233,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 9: Portugalete - Castro Urdiales',
             location: {
-                center: [-3.08303, 43.33805],
-                zoom: 12.53,
-                pitch: 60.00,
-                bearing: -15.79
+                center: [-3.04904, 43.33401],
+                zoom: 11.31,
+                pitch: 40.00,
+                bearing: 19.54
             },
             onChapterEnter: [
                 // {
@@ -257,10 +257,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 10: Castro Urdiales - Laredo',
             location: {
-                center: [-3.32746, 43.39265],
-                zoom: 12.16,
-                pitch: 60.00,
-                bearing: 14.61
+                center: [-3.26019, 43.37502],
+                zoom: 11.37,
+                pitch: 40.00,
+                bearing: 19.54
             },
             onChapterEnter: [
                 // {
@@ -281,10 +281,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 11: Laredo - Güemes',
             location: {
-                center: [-3.51135, 43.44710],
-                zoom: 11.88,
-                pitch: 60.00,
-                bearing: 19.20
+                center: [-3.45560, 43.41710],
+                zoom: 11.30,
+                pitch: 40.00,
+                bearing: 17.94
             },
             onChapterEnter: [
                 // {
