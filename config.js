@@ -7,8 +7,8 @@ var config = {
     theme: 'dark',
     alignment: 'right',
     title: 'The Way of Saint James - Northern Way',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By Javier Macaya Garcia', // author
+    subtitle: '',
+    byline: 'by Javier Macaya Garcia', // author
     footer: 'Source: source citations, etc.', // for citations
     chapters: [
         {
