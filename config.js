@@ -1,21 +1,21 @@
 // Mapbox Interactive Storytelling, adapted from source: https://labs.mapbox.com/education/impact-tools/interactive-storytelling/ 
 
 var config = {
-    style: 'mapbox://styles/javimacaya/ckhy9pr8h1lqh19loy3tftcdz', // "Way Saint James - Northern Way" mapbox style
+    style: 'mapbox://styles/javimacaya/ckhy9pr8h1lqh19loy3tftcdz', // "The Way of Saint James - The Northern Way" mapbox style
     accessToken: 'pk.eyJ1IjoiamF2aW1hY2F5YSIsImEiOiJja2ZpZndjMDgwOGFyMnBrdXIxbTlhNzhwIn0.dY2Ij8lB1KyP28WBXthpCg',
     showMarkers: false,
     theme: 'dark',
     alignment: 'right',
-    title: 'The Way of Saint James - Northern Way',
+    title: 'The Way of Saint James - The Northern Way',
     subtitle: '',
     byline: 'by Javier Macaya Garcia', // author
     footer: 'Source: source citations, etc.', // for citations
     chapters: [
         {
             id: 'chapter_1',
-            title: 'Overview of The Way of Saint James - Northern Way',
+            title: 'Overview of The Way of Saint James - The Northern Way',
             image: './path/to/image/source.png',
-            description: 'Description of The Way of Saint James - Northern Way',
+            description: 'Description of The Way of Saint James - The Northern Way',
             location: {
                 center: [2.305, 40.602],
                 zoom: 5.50,
