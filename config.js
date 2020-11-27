@@ -737,7 +737,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Description of Stage 30: Baamonde - Sobrado dos Monxes',
             location: {
-                center: [-7.78044, 43.08438],
+                center: [-7.78044, 43.05438],
                 zoom: 10.80,
                 pitch: 40.00,
                 bearing: 0.00             
