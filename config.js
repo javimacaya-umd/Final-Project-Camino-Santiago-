@@ -826,6 +826,30 @@ var config = {
                 //     opacity: 0
                 // }
             ]
+        },
+        {
+            id: 'chapter_35',
+            title: 'The End: The Cathedral of Santiago de Compostela',
+            image: './path/to/image/source.png',
+            description: 'Description of The End: The Cathedral of Santiago de Compostela',
+            location: {
+                center: [-8.54258, 42.88234],
+                zoom: 16.00,
+                pitch: 40.00,
+                bearing: -64.00                
+            },
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
         }
     ]
 };
