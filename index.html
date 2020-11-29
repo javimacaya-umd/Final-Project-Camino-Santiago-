@@ -52,6 +52,18 @@
             margin-right: 50px;
             margin-top: 20px;
         }
+        /* Styling logo header */
+        #header img {
+            float: left;
+            position: fixed;
+            top: -10px;
+            margin-left: -10px;
+            width: 60px;
+            height: 60px;
+        }
+        #header h1 {
+            margin-left: 80px;
+        }
         #footer {
             width: 100%;
             min-height: 5vh;
@@ -159,7 +171,13 @@ features.classList.add(alignments[config.alignment]);
 features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
-
+ 
+if (config.logoHeader) {
+    var logoCamino = document.createElement('img');
+    logoCamino.src = config.logoHeader;
+    header.appendChild(logoCamino);
+}
+    
 if (config.title) {
     var titleText = document.createElement('h1');
     titleText.innerText = config.title;
