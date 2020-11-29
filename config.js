@@ -6,6 +6,7 @@ var config = {
     showMarkers: false,
     theme: 'dark',
     alignment: 'right',
+    logoHeader: 'logo camino santiago.png',
     title: 'The Way of Saint James - The Northern Way',
     subtitle: '',
     byline: 'by Javier Macaya Garcia', // author
