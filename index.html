@@ -61,8 +61,11 @@
             width: 60px;
             height: 60px;
         }
+        /* Styling title of the header */
         #header h1 {
-            margin-left: 80px;
+            margin-left: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #footer {
             width: 100%;
@@ -184,6 +187,12 @@ if (config.title) {
     header.appendChild(titleText);
 }
 
+if (config.logoHeader) {
+    var logoCaminoRight = document.createElement('img');
+    logoCaminoRight.src = config.logoHeader;
+    header.appendChild(logoCaminoRight);
+}    
+    
 if (config.subtitle) {
     var subtitleText = document.createElement('h2');
     subtitleText.innerText = config.subtitle;
