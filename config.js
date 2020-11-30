@@ -10,7 +10,7 @@ var config = {
     title: 'The Way of Saint James - The Northern Way',
     subtitle: '',
     byline: 'by Javier Macaya Garcia', // author
-    footer: 'Source: source citations, etc.', // for citations
+    footer: '', // for citations
     chapters: [
         {
             id: 'chapter_1',
