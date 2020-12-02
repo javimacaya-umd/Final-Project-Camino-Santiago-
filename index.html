@@ -278,7 +278,8 @@ var map = new mapboxgl.Map({
     bearing: config.chapters[0].location.bearing,
     pitch: config.chapters[0].location.pitch,
     scrollZoom: false,
-    transformRequest: transformRequest
+    transformRequest: transformRequest,
+    minZoom: 5.50 // Limiting zoom out, source: https://stackoverflow.com/questions/47743595/how-do-i-limit-the-zoom-level-of-my-map-mapbox
 });
 
 var marker = new mapboxgl.Marker();
