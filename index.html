@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8' />
     <title>Northern Way of Saint James</title>
@@ -132,204 +133,204 @@
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
             touch-action: unset;
         }
-
-        </style>
+    </style>
 </head>
+
 <body>
 
-<div id="map"></div>
-<div id="story"></div>
-<script src="./config.js"></script>
-<script>
-var layerTypes = {
-    'fill': ['fill-opacity'],
-    'line': ['line-opacity'],
-    'circle': ['circle-opacity', 'circle-stroke-opacity'],
-    'symbol': ['icon-opacity', 'text-opacity'],
-    'raster': ['raster-opacity'],
-    'fill-extrusion': ['fill-extrusion-opacity']
-}
+    <div id="map"></div>
+    <div id="story"></div>
+    <script src="./config.js"></script>
+    <script>
+        var layerTypes = {
+            'fill': ['fill-opacity'],
+            'line': ['line-opacity'],
+            'circle': ['circle-opacity', 'circle-stroke-opacity'],
+            'symbol': ['icon-opacity', 'text-opacity'],
+            'raster': ['raster-opacity'],
+            'fill-extrusion': ['fill-extrusion-opacity']
+        }
 
-var alignments = {
-    'left': 'lefty',
-    'center': 'centered',
-    'right': 'righty'
-}
+        var alignments = {
+            'left': 'lefty',
+            'center': 'centered',
+            'right': 'righty'
+        }
 
-function getLayerPaintType(layer) {
-    var layerType = map.getLayer(layer).type;
-    return layerTypes[layerType];
-}
+        function getLayerPaintType(layer) {
+            var layerType = map.getLayer(layer).type;
+            return layerTypes[layerType];
+        }   
 
-function setLayerOpacity(layer) {
-    var paintProps = getLayerPaintType(layer.layer);
-    paintProps.forEach(function(prop) {
-        map.setPaintProperty(layer.layer, prop, layer.opacity);
-    });
-}
+        function setLayerOpacity(layer) {
+            var paintProps = getLayerPaintType(layer.layer);
+            paintProps.forEach(function(prop) {
+                map.setPaintProperty(layer.layer, prop, layer.opacity);
+            });
+        }   
 
-var story = document.getElementById('story');
-var features = document.createElement('div');
-features.classList.add(alignments[config.alignment]);
-features.setAttribute('id', 'features');
+        var story = document.getElementById('story');
+        var features = document.createElement('div');
+        features.classList.add(alignments[config.alignment]);
+        features.setAttribute('id', 'features');
 
-var header = document.createElement('div');
+        var header = document.createElement('div');
  
-if (config.logoHeader) {
-    var logoCamino = document.createElement('img');
-    logoCamino.src = config.logoHeader;
-    header.appendChild(logoCamino);
-}
+        if (config.logoHeader) {
+            var logoCamino = document.createElement('img');
+            logoCamino.src = config.logoHeader;
+            header.appendChild(logoCamino);
+        }
     
-if (config.title) {
-    var titleText = document.createElement('h1');
-    titleText.innerText = config.title;
-    header.appendChild(titleText);
-}
+        if (config.title) {
+            var titleText = document.createElement('h1');
+            titleText.innerText = config.title;
+            header.appendChild(titleText);
+        }
 
-if (config.logoHeader) {
-    var logoCaminoRight = document.createElement('img');
-    logoCaminoRight.src = config.logoHeader;
-    header.appendChild(logoCaminoRight);
-}    
+        if (config.logoHeader) {
+            var logoCaminoRight = document.createElement('img');
+            logoCaminoRight.src = config.logoHeader;
+            header.appendChild(logoCaminoRight);
+        }    
     
-if (config.subtitle) {
-    var subtitleText = document.createElement('h2');
-    subtitleText.innerText = config.subtitle;
-    header.appendChild(subtitleText);
-}
+        if (config.subtitle) {
+            var subtitleText = document.createElement('h2');
+            subtitleText.innerText = config.subtitle;
+            header.appendChild(subtitleText);
+        }
 
-if (config.byline) {
-    var bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
-    header.appendChild(bylineText);
-}
+        if (config.byline) {
+            var bylineText = document.createElement('p');
+            bylineText.innerText = config.byline;
+            header.appendChild(bylineText);
+        }
 
-if (header.innerText.length > 0) {
-    header.classList.add(config.theme);
-    header.setAttribute('id', 'header');
-    story.appendChild(header);
-}
+        if (header.innerText.length > 0) {
+            header.classList.add(config.theme);
+            header.setAttribute('id', 'header');
+            story.appendChild(header);
+        }
 
-config.chapters.forEach((record, idx) => {
-    var container = document.createElement('div');
-    var chapter = document.createElement('div');
+        config.chapters.forEach((record, idx) => {  
+            var container = document.createElement('div');
+            var chapter = document.createElement('div');
     
-    if (record.title) {
-        var title = document.createElement('h3');
-        title.innerText = record.title;
-        chapter.appendChild(title);
-    }
+            if (record.title) {
+                var title = document.createElement('h3');
+                title.innerText = record.title;
+                chapter.appendChild(title);
+            }
     
-    if (record.image) {
-        var image = new Image();  
-        image.src = record.image;  
-        chapter.appendChild(image);
-    }
+            if (record.image) {
+                var image = new Image();  
+                image.src = record.image;  
+                chapter.appendChild(image);
+            }
     
-    if (record.description) {
-        var story = document.createElement('p');
-        story.innerHTML = record.description;
-        chapter.appendChild(story);
-    }
+            if (record.description) {
+                var story = document.createElement('p');
+                story.innerHTML = record.description;
+                chapter.appendChild(story);
+            }
 
-    container.setAttribute('id', record.id);
-    container.classList.add('step');
-    if (idx === 0) {
-        container.classList.add('active');
-    }
+            container.setAttribute('id', record.id);
+            container.classList.add('step');
+            if (idx === 0) {
+                container.classList.add('active');
+            }
 
-    chapter.classList.add(config.theme);
-    container.appendChild(chapter);
-    features.appendChild(container);
-});
+            chapter.classList.add(config.theme);
+            container.appendChild(chapter);
+            features.appendChild(container);
+        });
 
-story.appendChild(features);
+        story.appendChild(features);
 
-var footer = document.createElement('div');
+        var footer = document.createElement('div');
 
-if (config.footer) {
-    var footerText = document.createElement('p');
-    footerText.innerHTML = config.footer;
-    footer.appendChild(footerText);
-}
+        if (config.footer) {
+            var footerText = document.createElement('p');
+            footerText.innerHTML = config.footer;
+            footer.appendChild(footerText);
+        }
 
-if (footer.innerText.length > 0) {
-    footer.classList.add(config.theme);
-    footer.setAttribute('id', 'footer');
-    story.appendChild(footer);
-}
+        if (footer.innerText.length > 0) {
+            footer.classList.add(config.theme);
+            footer.setAttribute('id', 'footer');
+            story.appendChild(footer);
+        }   
 
-mapboxgl.accessToken = config.accessToken;
+        mapboxgl.accessToken = config.accessToken;
 
-const transformRequest = (url) => {
-    const hasQuery = url.indexOf("?") !== -1;	  
-    const suffix = hasQuery ? "&pluginName=journalismScrollytelling" : "?pluginName=journalismScrollytelling";	  
-    return {
-      url: url + suffix
-    }	  
-}
+        const transformRequest = (url) => {
+            const hasQuery = url.indexOf("?") !== -1;	  
+            const suffix = hasQuery ? "&pluginName=journalismScrollytelling" : "?pluginName=journalismScrollytelling";	  
+            return {
+                url: url + suffix
+            }	  
+        }
 
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: config.style,
-    center: config.chapters[0].location.center,
-    zoom: config.chapters[0].location.zoom,
-    bearing: config.chapters[0].location.bearing,
-    pitch: config.chapters[0].location.pitch,
-    scrollZoom: false,
-    transformRequest: transformRequest,
-    minZoom: 5.50 // Limiting zoom out, source: https://stackoverflow.com/questions/47743595/how-do-i-limit-the-zoom-level-of-my-map-mapbox
-});
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: config.style,
+            center: config.chapters[0].location.center,
+            zoom: config.chapters[0].location.zoom,
+            bearing: config.chapters[0].location.bearing,
+            pitch: config.chapters[0].location.pitch,
+            scrollZoom: false,
+            transformRequest: transformRequest,
+            minZoom: 5.50 // Limiting zoom out, source: https://stackoverflow.com/questions/47743595/how-do-i-limit-the-zoom-level-of-my-map-mapbox
+        });
 
-var marker = new mapboxgl.Marker();
-if (config.showMarkers) {
-    marker.setLngLat(config.chapters[0].location.center).addTo(map);
-}
-
-// instantiate the scrollama
-var scroller = scrollama();
-
-map.on("load", function() {
-    // setup the instance, pass callback functions
-    scroller
-    .setup({
-        step: '.step',
-        offset: 0.5,
-        progress: true
-    })
-    .onStepEnter(response => {
-        var chapter = config.chapters.find(chap => chap.id === response.element.id);
-        response.element.classList.add('active');
-        map.flyTo(chapter.location);
+        var marker = new mapboxgl.Marker();
         if (config.showMarkers) {
-            marker.setLngLat(chapter.location.center);
+            marker.setLngLat(config.chapters[0].location.center).addTo(map);
         }
-        if (chapter.onChapterEnter.length > 0) {
-            chapter.onChapterEnter.forEach(setLayerOpacity);
-        }
-    })
-    .onStepExit(response => {
-        var chapter = config.chapters.find(chap => chap.id === response.element.id);
-        response.element.classList.remove('active');
-        if (chapter.onChapterExit.length > 0) {
-            chapter.onChapterExit.forEach(setLayerOpacity);
-        }
-    });
-});
 
-// setup resize event
-window.addEventListener('resize', scroller.resize);
+        // instantiate the scrollama
+        var scroller = scrollama();
+
+        map.on("load", function() {
+            // setup the instance, pass callback functions
+            scroller
+            .setup({
+                step: '.step',
+                offset: 0.5,
+                progress: true
+            })
+            .onStepEnter(response => {
+                var chapter = config.chapters.find(chap => chap.id === response.element.id);
+                response.element.classList.add('active');
+                map.flyTo(chapter.location);
+                if (config.showMarkers) {
+                    marker.setLngLat(chapter.location.center);
+                }
+                if (chapter.onChapterEnter.length > 0) {
+                    chapter.onChapterEnter.forEach(setLayerOpacity);
+                }
+            })
+            .onStepExit(response => {
+                var chapter = config.chapters.find(chap => chap.id === response.element.id);
+                response.element.classList.remove('active');
+                if (chapter.onChapterExit.length > 0) {
+                    chapter.onChapterExit.forEach(setLayerOpacity);
+                }
+            });
+        });
+
+        // setup resize event
+        window.addEventListener('resize', scroller.resize);
 
     
-// Navigation Controls, source: https://stackoverflow.com/questions/42837381/how-to-display-only-and-in-the-mapbox-navigation-control
-var nav = new mapboxgl.NavigationControl({
-        showCompass: false,
-        showZoom: true
-      });
+        // Navigation Controls, source: https://stackoverflow.com/questions/42837381/how-to-display-only-and-in-the-mapbox-navigation-control
+        var nav = new mapboxgl.NavigationControl({
+            showCompass: false,
+            showZoom: true
+        });
 
-map.addControl(nav, "top-left");
-</script>
-
+        map.addControl(nav, "top-left");
+    </script>
 </body>
+    
 </html>
