@@ -116,11 +116,12 @@
             line-height: 25px;
             font-size: 13px;
         }
-        .step img {
-            /* width: 100%; */
-         
-            /* Styling Scroll logo */
+        #imagePanel {
+            width: 100%;
+        }
+        #scrollDown { /* Styling Scroll logo */
             margin-left: 230px;
+            margin-bottom: -30px;
             float: inherit;
         } 
         @media (max-width: 750px) {
@@ -224,7 +225,8 @@
             }
     
             if (record.image) {
-                var image = new Image();  
+                var image = new Image();
+                image.id = 'imagePanel';
                 image.src = record.image;  
                 chapter.appendChild(image);
             }
@@ -239,6 +241,7 @@
             // Adding Scroll Down logo to each chapter
             if (record.scrollDown) {
                 var scrollDown = new Image(90,80);
+                scrollDown.id = 'scrollDown'; // Setting ID property for scrollDown, source: https://www.w3schools.com/jsref/prop_html_id.asp
                 scrollDown.src = record.scrollDown;  
                 chapter.appendChild(scrollDown);
             }
