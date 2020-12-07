@@ -116,18 +116,19 @@
             line-height: 25px;
             font-size: 13px;
         }
-
         .step img {
-            width: 100%;
-        }
-
+            /* width: 100%; */
+         
+            /* Styling Scroll logo */
+            margin-left: 230px;
+            float: inherit;
+        } 
         @media (max-width: 750px) {
             #features {
                 width: 90vw;
                 margin: 0 auto;
             }
         }
-
         /* Fix issue on mobile browser where scroll breaks  */
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan, 
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
@@ -237,7 +238,7 @@
             
             // Adding Scroll Down logo to each chapter
             if (record.scrollDown) {
-                var scrollDown = new Image();  
+                var scrollDown = new Image(90,80);
                 scrollDown.src = record.scrollDown;  
                 chapter.appendChild(scrollDown);
             }
