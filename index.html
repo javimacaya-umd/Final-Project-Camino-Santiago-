@@ -233,6 +233,13 @@
                 story.innerHTML = record.description;
                 chapter.appendChild(story);
             }
+            
+            // Adding Scroll Down logo to each chapter
+            if (record.scrollDown) {
+                var scrollDown = new Image();  
+                scrollDown.src = record.scrollDown;  
+                chapter.appendChild(scrollDown);
+            }
 
             container.setAttribute('id', record.id);
             container.classList.add('step');

@@ -17,6 +17,7 @@ var config = {
             title: 'Overview of The Way of Saint James - The Northern Way',
             image: './path/to/image/source.png',
             description: 'Description of The Way of Saint James - The Northern Way',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [2.305, 40.602],
                 zoom: 5.50,
@@ -41,6 +42,7 @@ var config = {
             title: 'Stage 1: Irún - San Sebastián',
             image: './path/to/image/source.png',
             description: 'Description of Stage 1: Irún - San Sebastián',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-1.81769, 43.34310],
                 zoom: 11.48,
@@ -65,6 +67,7 @@ var config = {
             title: 'Stage 2: San Sebastian - Zarautz',
             image: './path/to/image/source.png',
             description: 'Description of Stage 2: San Sebastian - Zarautz',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-1.99139, 43.30755],
                 zoom: 11.48,
@@ -89,6 +92,7 @@ var config = {
             title: 'Stage 3: Zarautz - Deba',
             image: './path/to/image/source.png',
             description: 'Description of Stage 3: Zarautz - Deba',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-2.18673, 43.27313],
                 zoom: 11.48,
@@ -113,6 +117,7 @@ var config = {
             title: 'Stage 4: Deba - Markina',
             image: './path/to/image/source.png',
             description: 'Description of Stage 4: Deba - Markina',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-2.36252, 43.28815],
                 zoom: 11.70,
@@ -137,6 +142,7 @@ var config = {
             title: 'Stage 5: Markina - Gernika',
             image: './path/to/image/source.png',
             description: 'Description of Stage 5: Markina - Gernika',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-2.51861, 43.26025],
                 zoom: 11.45,
@@ -161,6 +167,7 @@ var config = {
             title: 'Stage 6: Gernika - Lezama',
             image: './path/to/image/source.png',
             description: 'Description of Stage 6: Gernika - Lezama',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-2.70036, 43.30478],
                 zoom: 11.81,
@@ -185,6 +192,7 @@ var config = {
             title: 'Stage 7: Lezama - Bilbao',
             image: './path/to/image/source.png',
             description: 'Description of Stage 7: Lezama - Bilbao',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-2.85042, 43.28141],
                 zoom: 12.42,
@@ -209,6 +217,7 @@ var config = {
             title: 'Stage 8: Bilbao - Portugalete',
             image: './path/to/image/source.png',
             description: 'Description of Stage 8: Bilbao - Portugalete',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-2.93256, 43.27154],
                 zoom: 12.10,
@@ -233,6 +242,7 @@ var config = {
             title: 'Stage 9: Portugalete - Castro Urdiales',
             image: './path/to/image/source.png',
             description: 'Description of Stage 9: Portugalete - Castro Urdiales',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-3.04904, 43.33401],
                 zoom: 11.31,
@@ -257,6 +267,7 @@ var config = {
             title: 'Stage 10: Castro Urdiales - Laredo',
             image: './path/to/image/source.png',
             description: 'Description of Stage 10: Castro Urdiales - Laredo',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-3.26019, 43.37502],
                 zoom: 11.37,
@@ -281,6 +292,7 @@ var config = {
             title: 'Stage 11: Laredo - Güemes',
             image: './path/to/image/source.png',
             description: 'Description of Stage 11: Laredo - Güemes',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-3.45560, 43.41710],
                 zoom: 11.30,
@@ -305,6 +317,7 @@ var config = {
             title: 'Stage 12: Güemes - Santander',
             image: './path/to/image/source.png',
             description: 'Description of Stage 12: Güemes - Santander',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-3.66846, 43.44671],
                 zoom: 11.70,
@@ -329,6 +342,7 @@ var config = {
             title: 'Stage 13: Santander - Santillana del Mar',
             image: './path/to/image/source.png',
             description: 'Description of Stage 13: Santander - Santillana del Mar',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-3.84785, 43.43508],
                 zoom: 10.90,
@@ -353,6 +367,7 @@ var config = {
             title: 'Stage 14: Santillana del Mar - San Vicente de la Barquera',
             image: './path/to/image/source.png',
             description: 'Description of Stage 14: Santillana del Mar - San Vicente de la Barquera',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-4.14497, 43.39724],
                 zoom: 11.00,
@@ -377,6 +392,7 @@ var config = {
             title: 'Stage 15: San Vicente de la Barquera - Llanes',
             image: './path/to/image/source.png',
             description: 'Description of Stage 15: San Vicente de la Barquera - Llanes',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-4.44816, 43.36450],
                 zoom: 10.83,
@@ -401,6 +417,7 @@ var config = {
             title: 'Stage 16: Llanes - Ribadesella',
             image: './path/to/image/source.png',
             description: 'Description of Stage 16: Llanes - Ribadesella',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-4.80180, 43.41640],
                 zoom: 10.96,
@@ -425,6 +442,7 @@ var config = {
             title: 'Stage 17: Ribadesella - Sebrayo, Villaviciosa',
             image: './path/to/image/source.png',
             description: 'Description of Stage 17: Ribadesella - Sebrayo, Villaviciosa',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-5.12089, 43.45842],
                 zoom: 10.71,
@@ -449,6 +467,7 @@ var config = {
             title: 'Stage 18: Sebrayo, Villaviciosa - La Vega',
             image: './path/to/image/source.png',
             description: 'Description of Stage 18: Sebrayo, Villaviciosa - La Vega',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-5.40340, 43.45589],
                 zoom: 11.33,
@@ -473,6 +492,7 @@ var config = {
             title: 'Stage 19: La Vega - Oviedo',
             image: './path/to/image/source.png',
             description: 'Description of Stage 19: La Vega - Oviedo',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-5.59355, 43.38929],
                 zoom: 11.10,
@@ -497,6 +517,7 @@ var config = {
             title: 'Stage 20: Oviedo - Avilés',
             image: './path/to/image/source.png',
             description: 'Description of Stage 20: Oviedo - Avilés',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-5.80150, 43.41709],
                 zoom: 11.20,
@@ -521,6 +542,7 @@ var config = {
             title: 'Stage 21: Avilés - Soto de Luiña',
             image: './path/to/image/source.png',
             description: 'Description of Stage 21: Avilés - Soto de Luiña',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-5.95829, 43.53031],
                 zoom: 10.94,
@@ -545,6 +567,7 @@ var config = {
             title: 'Stage 22: Soto de Luiña - Cadavedo',
             image: './path/to/image/source.png',
             description: 'Description of Stage 22: Soto de Luiña - Cadavedo',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-6.25861, 43.53082],
                 zoom: 11.75,
@@ -569,6 +592,7 @@ var config = {
             title: 'Stage 23: Cadavedo - Luarca',
             image: './path/to/image/source.png',
             description: 'Description of Stage 23: Cadavedo - Luarca',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-6.40745, 43.53444],
                 zoom: 11.94,
@@ -593,6 +617,7 @@ var config = {
             title: 'Stage 24: Luarca - La Caridad',
             image: './path/to/image/source.png',
             description: 'Description of Stage 24: Luarca - La Caridad',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-6.60364, 43.49848],
                 zoom: 11.02,
@@ -617,6 +642,7 @@ var config = {
             title: 'Stage 25: La Caridad - Ribadeo',
             image: './path/to/image/source.png',
             description: 'Description of Stage 25: La Caridad - Ribadeo',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-6.86077, 43.52534],
                 zoom: 11.51,
@@ -641,6 +667,7 @@ var config = {
             title: 'Stage 26: Ribadeo - Lourenzá',
             image: './path/to/image/source.png',
             description: 'Description of Stage 26: Ribadeo - Lourenzá',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-7.08322, 43.45960],
                 zoom: 11.20,
@@ -665,6 +692,7 @@ var config = {
             title: 'Stage 27: Lourenzá - Gontán',
             image: './path/to/image/source.png',
             description: 'Description of Stage 27: Lourenzá - Gontán',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-7.31333, 43.39438],
                 zoom: 11.51,
@@ -689,6 +717,7 @@ var config = {
             title: 'Stage 28: Gontán - Vilalba',
             image: './path/to/image/source.png',
             description: 'Description of Stage 28: Gontán - Vilalba',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-7.50528, 43.31445],
                 zoom: 11.40,
@@ -713,6 +742,7 @@ var config = {
             title: 'Stage 29: Vilalba - Baamonde',
             image: './path/to/image/source.png',
             description: 'Description of Stage 29: Vilalba - Baamonde',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-7.66557, 43.25757],
                 zoom: 11.76,
@@ -737,6 +767,7 @@ var config = {
             title: 'Stage 30: Baamonde - Sobrado dos Monxes',
             image: './path/to/image/source.png',
             description: 'Description of Stage 30: Baamonde - Sobrado dos Monxes',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-7.78044, 43.05438],
                 zoom: 10.80,
@@ -761,6 +792,7 @@ var config = {
             title: 'Stage 31: Sobrado dos Monxes - Arzúa',
             image: './path/to/image/source.png',
             description: 'Description of Stage 31: Sobrado dos Monxes - Arzúa',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-8.03916, 43.00084],
                 zoom: 11.46,
@@ -785,6 +817,7 @@ var config = {
             title: 'Stage 32: Arzúa - O Pedrouzo',
             image: './path/to/image/source.png',
             description: 'Description of Stage 32: Arzúa - O Pedrouzo',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-8.19040, 42.89746],
                 zoom: 11.55,
@@ -809,6 +842,7 @@ var config = {
             title: 'Stage 33: O Pedrouzo - Santiago de Compostela',
             image: './path/to/image/source.png',
             description: 'Description of Stage 33: O Pedrouzo - Santiago de Compostela',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-8.42456, 42.86368],
                 zoom: 11.74,
@@ -833,6 +867,7 @@ var config = {
             title: 'The End: The Cathedral of Santiago de Compostela',
             image: './path/to/image/source.png',
             description: 'Description of The End: The Cathedral of Santiago de Compostela',
+            scrollDown: 'scroll-arrow.png',
             location: {
                 center: [-8.54258, 42.88234],
                 zoom: 16.00,
