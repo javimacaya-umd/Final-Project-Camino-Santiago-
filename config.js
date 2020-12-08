@@ -37,6 +37,11 @@ var config = {
                  // }
             ]
         },
+        {
+            id: 'chapter_1_B',
+            title: 'The Northern Way',
+            image: '/images/chapter-1-B-routes.png',
+            description: 'The Way of Saint James is a unique journey, and it is both a cultural and a physical adventure. There are many different routes, all of them taking pilgrims to Santiago de Compostela and all with their own unique history, heritage and charm. Embarking on this walk you will get your pilgrim passport before you begin and collect stamps along the way to receive your Compostela at the end, which is the accreditation of the pilgrimage to the Tomb of Saint James. Among all the routes, The Northern Way is the one explained here. The Northern Way goes along the wonderful Northern coast of ‘Green Spain’ from the Basque Country, across Cantabria, Asturias and on to Santiago de Compostela, in Galicia. Along this coastal route, you will discover fascinating cities and fishing villages, swim in beautiful sandy beaches and taste delicious seafood. The Northern Way is the third most popular route to Santiago de Compostela, according to information gathered by the Pilgrim’s Office in Santiago. It is a great alternative for first-time pilgrims who strive to get away from the crowd while still benefiting from the well-developed service infrastructure along the way. It is the longest route with 827 km in total and 33 stages. All the 33 stages are described here.',
             scrollDown: 'scroll-arrow.png',
             location: {
                 center: [2.305, 40.602],
