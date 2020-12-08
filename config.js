@@ -13,10 +13,30 @@ var config = {
     footer: '', // for citations
     chapters: [
         {
-            id: 'chapter_1',
-            title: 'Overview of The Way of Saint James - The Northern Way',
-            image: './path/to/image/source.png',
-            description: 'Description of The Way of Saint James - The Northern Way',
+            id: 'chapter_1_A',
+            title: 'The Way of Saint James - The Northern Way',
+            image: '/images/chapter-1-overview.jpg',
+            description: 'The Way of St. James (El Camino de Santiago), is a pilgrimage of Medieval Origin to the Cathedral of Santiago de Compostela in Galicia, in the Northwest of Spain. Legend has it that the remains of the Apostle Saint James the Great were buried here and discovered by a shepherd in the 9th century. The city is, in fact, named after the apostle: Santiago de Compostela means St James of the Field of Stars.The Camino de Santiago has been listed as UNESCO World Heritage for its important role encouraging cultural exchanges between people from all over Europe and the world for many centuries. Today, more than a pilgrimage, the Camino de Santiago, is a unique experience and trip of a lifetime and the routes attract thousands of people from all over the world.',
+            scrollDown: 'scroll-arrow.png',
+            location: {
+                center: [2.305, 40.602],
+                zoom: 5.50,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [
+                 // {
+                 //    layer: 'layer-name',
+                 //    opacity: 1
+                 // }
+            ],
+            onChapterExit: [
+                 // {
+                 //     layer: 'layer-name',
+                 //     opacity: 0
+                 // }
+            ]
+        },
             scrollDown: 'scroll-arrow.png',
             location: {
                 center: [2.305, 40.602],
