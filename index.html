@@ -140,6 +140,20 @@
 
 <body>
 
+    <! -- Styling popups, adapted from source: https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/ -->
+    <style>
+        .mapboxgl-popup {
+            min-width: 310px;
+            /* max-width: 400px; */
+            font: 12px/20px 'Didot', Helvetica, sans-serif;        
+        }
+        .mapboxgl-popup-content {
+            color: white;
+            background-color: #444;
+            opacity: inherit;
+        }
+    </style>
+    
     <div id="map"></div>
     <div id="story"></div>
     <script src="./config.js"></script>
@@ -343,6 +357,26 @@
         });
 
         map.addControl(nav, "top-left");
+        
+        // Creating Popups for Towns, adapted from source: https://docs.mapbox.com/help/tutorials/add-points-pt-3/
+        map.on('click', function(e) {
+            var features = map.queryRenderedFeatures(e.point, {
+                layers: ['towns-2'] // replace this with the name of the layer
+            });
+
+            if (!features.length) {
+                return;
+            }
+
+            var feature = features[0];
+
+            var popup = new mapboxgl.Popup({ offset: [-60, -30] })
+                .setLngLat(feature.geometry.coordinates)
+            
+                // Solved issue with links not working in popups, source:https://gis.stackexchange.com/questions/279205/how-to-add-links-to-popups-in-mapbox-gl-js
+                .setHTML('<h3>' + feature.properties.Town + '</h3><img src="' + feature.properties.Image + 'alt="" width="100px" height="100px"><p>' + feature.properties.Description1 + '</p>')
+                .addTo(map);
+        });
     </script>
 </body>
     
