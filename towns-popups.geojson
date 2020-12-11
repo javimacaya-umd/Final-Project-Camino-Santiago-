@@ -1,0 +1,460 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.785382,43.349905 ]
+    },
+    "properties": {
+    "Town":"Ir�n",
+    "ImageURL":"https://en.wikipedia.org/wiki/Pheasant_Island#/media/File:Isla_de_los_Faisanes-edited.jpg",
+    "Description1":"The industrial and commercial character of Ir�n make it the most significant city on the banks of the Bidasoa river.",
+    "Description2":"A mere three kilometres separate Ir�n from Hondarribia. Both of them face the French city of Hendaia, with the Bidasoa river as their boundary. Ir�n has the appearance of a new city, although it is possible to find in it important vestiges from the past. One of them is the church of Santa Mar�a del Juncal, from the 16th century, with a Baroque fa�ade, and a Romanesque image of the saint."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.98912,43.315201 ]
+    },
+    "properties": {
+    "Town":"San Sebasti�n",
+    "ImageURL":"https://en.wikipedia.org/wiki/San_Sebastián#/media/File:Panorama_from_Monte_Igueldo_(5106955283).jpg",
+    "Description1":"Fishermen's houses, a smart suburb and modern districts make it one of the most attractive cities on the Cantabrian coast. The Museum of San Telmo, the Peine del Viento (the Wind Comb) and the Kursaal are examples of how the city brings together modern and traditional features.",
+    "Description2":"Meanwhile, the province of Gipuzkoa, of which San Sebasti�n is the capital, blends sea and mountains, offering the traveller landscape, sports and cuisine, as well as interesting monuments. Basque cuisine has a recognised international prestige."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.170888,43.287379 ]
+    },
+    "properties": {
+    "Town":"Zarautz",
+    "ImageURL":"https://en.wikipedia.org/wiki/Zarautz#/media/File:Zarautz_Vue_Camping.jpg",
+    "Description1":"This town in the province of Gipuzkoa combines its excellent beach with an interesting historic quarter. The local cuisine is one of the most exquisite and famous in the whole Basque Country.",
+    "Description2":"This ancient settlement of whale hunters became an important tourist village in the 19th century. Its elegant beach, the longest in the province, has a quiet promenade on the shore of the Cantabrian Sea, decorated with numerous vanguard sculptures. Zarautz's waves make it a paradise for surf lovers. "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.353917,43.295582 ]
+    },
+    "properties": {
+    "Town":"Deba",
+    "ImageURL":"https://en.wikipedia.org/wiki/Deba,_Gipuzkoa#/media/File:Playa_Deba_(1).JPG",
+    "Description1":"Deba is located in the most western part of Gipuzkoa's coast. It belongs to Debabarrena region, very close to Bizkaia's border. Surrounded by small heights, it welcomes annually many tourists attracted by the beauty of its landscape and the warm attitude of its inhabitants.",
+    "Description2":"We will discover one of the most spectacular stretches of the Basque coast due to the sea erosion. Next to steep cliffs we will notice a plain surface, very peculiar from a geological point of view, that reveals itself when low tide and shelters many migratory birds."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.498168,43.267016 ]
+    },
+    "properties": {
+    "Town":"Markina",
+    "ImageURL":"https://ast.wikipedia.org/wiki/Markina-Xemein#/media/Ficheru:Markina.jpg",
+    "Description1":"The town, founded about the middle of the 14th century, consists of two villages: Markina and Xemein. The village's centre still maintains its medieval layout and offers a vast heritage display. Cradle of great pelotaris, Markina-Xemein keeps a tight connection with Basque pelota sport; in fact its two walled court or front�n is known as \"University of the Pelota\", since it is the place where great Basket or Jai Alai pelotaris learnt to play. ",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.679381,43.313505 ]
+    },
+    "properties": {
+    "Town":"Gernika",
+    "ImageURL":"https://www.theguardian.com/travel/2017/apr/05/guernica-anniversary-basque-country-picasso-painting-peace#img-1",
+    "Description1":"The town sits in the valley of the river Oka, which flows into the Gernika estuary. Very close by is the Urdaibai Nature Reserve, which UNESCO has declared to be a Biosphere Reserve.",
+    "Description2":"The cave of Santimami�e (Kortezubi) shows that the valley has been inhabited since prehistoric times. Inside are cave paintings comparable in terms of quality and richness to those of Altamira. From that period on, Gernika was inhabited by successive civilizations until its foundation as a town in 1366."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.834245,43.274249 ]
+    },
+    "properties": {
+    "Town":"Lezama",
+    "ImageURL":"https://en.wikipedia.org/wiki/Lezama#/media/File:TorreLezama.jpg",
+    "Description1":"Lezama, in the Txorierri valley, is a low-lying area bordered by two mountainous areas.",
+    "Description2":"There are many ancestral houses and lordly towers that bear witness to its medieval origins; among the oldest ones we'd like to mention Basabil y Arechavaleta house and Oxangoiti ancestral house. Entering the village we'll visit the elegant church of Santa Mar�a, which dates back to the 13th century, with a beautiful facade and five altarpieces."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.921822,43.258477 ]
+    },
+    "properties": {
+    "Town":"Bilbao",
+    "ImageURL":"https://en.wikipedia.org/wiki/Bilbao#/media/File:Guggenheim_Museum,_Bilbao_(26311230864).jpg",
+    "Description1":"The city of the Guggenheim�is an alternative name for this Basque Country destination as, since this original museum was built in 1997, Bilbao has been transformed forever. In fact, now it stands out for its ground-breaking structures created by prestigious architects, and which make it an international benchmark for modern design.",
+    "Description2":"Although, curiously, its unique character comes from combining avant-garde with the traditional feel of its old town, full of charming streets and bars offering pintxos, proof that they are passionate about gastronomy around here. All this has earned Bilbao a place of honour on the lists of Spain's most interesting cities."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.016991,43.320043 ]
+    },
+    "properties": {
+    "Town":"Portugalete",
+    "ImageURL":"https://en.wikipedia.org/wiki/Portugalete#/media/File:Portugalete_Vizcaya_Bridge_001.jpg",
+    "Description1":"Together with the Vizcaya Bridge, the steep streets of Portugalete's old quarter is one of the most interesting places in the town.",
+    "Description2":"This historic and artistic site maintains its mediaeval character, and is overlooked by the basilica of Santa Mar�a, with its mixture of Gothic and Renaissance styles. Beside it stands the Salazar Tower, built in 1379. Visitors can also see the convent of Santa Clara, with its outstanding Renaissance-Plateresque bell tower."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.217781,43.382479 ]
+    },
+    "properties": {
+    "Town":"Castro Urdiales",
+    "ImageURL":"https://en.wikipedia.org/wiki/Castro_Urdiales#/media/File:Castro_Urdiales.jpg",
+    "Description1":"Castro Urdiales has all the charm of a small seafaring and fishing village with a rich tradition and tourist atmosphere, aided by the beaches of Urdiales, El Fraile and Brazomar.",
+    "Description2":"The town centre, with its characteristic houses with wooden rows of balconies, is medieval in origin and earned recognition as a Historic Site in 1978. Its main monuments, of different styles and periods, contrast with the seafaring sobriety of the old village, formed by narrow streets which are perfect for strolling through. "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.41268,43.410981 ]
+    },
+    "properties": {
+    "Town":"Laredo",
+    "ImageURL":"https://en.wikipedia.org/wiki/Laredo,_Cantabria#/media/File:Laredo.jpg",
+    "Description1":"Situated between the river Treto and the bay of Santo�a, Laredo is one of the main tourist towns on the Cantabrian coast.",
+    "Description2":"It has one of the biggest and most beautiful beaches in the region: La Salv�, an immense stretch of sand of measuring some five kilometres."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.645236,43.451796 ]
+    },
+    "properties": {
+    "Town":"G�emes",
+    "ImageURL":"https://es.wikipedia.org/wiki/Güemes_(España)#/media/Archivo:Güemes,_localidad_del_municipio_de_Bareyo_(Cantabria).jpg",
+    "Description1":"This little village in Cantabria is known for its beautiful valley, bathed by the Rumego creek, the Cabra creek, the Calderas creek and the Liermo creek. The famous stonemasons of the XVI and XVII centuries (Gonzalo G�emes Bracamonte, Francisco de Viadero Garc�a de G�emes, Pedro de Cereceda and the G�emes Campero family) are from this village.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.807416,43.461377 ]
+    },
+    "properties": {
+    "Town":"Santander",
+    "ImageURL":"https://es.wikipedia.org/wiki/Santander_(España)#/media/Archivo:Palacete_del_Embarcadero._Santander.jpg",
+    "Description1":"A city that seems straight out of a storybook and whose life revolves around the bay, recognised as one of the prettiest in the world.",
+    "Description2":"Santander (Cantabria), in the north of Spain, is a combination of green mountain landscapes with white sand beaches, elegant mansions and palatial architecture with avant-garde buildings and the unmistakeable echo of its seafaring past. Many cities within a city, perfect for discovering."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.105928309,43.3919125 ]
+    },
+    "properties": {
+    "Town":"Santillana del Mar",
+    "ImageURL":"https://es.wikipedia.org/wiki/Santillana_del_Mar#/media/Archivo:Rues_de_Santillana_del_Mar_(Cantabria).jpg",
+    "Description1":"Situated on the northern route of the Pilgrim's Road to Santiago de Compostela, Santillana del Mar is a beautiful medieval town which was developed around the collegiate church of Santa Mar�a. Its various defence towers and Renaissance palaces make Santillana one of the most important historical areas of Cantabria.",
+    "Description2":"The origin of the town goes back to the VIII century, when a medieval village began to be developed, which had as its centre the collegiate church of Santa Juliana, the building which would later give its name to the present day Santillana del Mar."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2902,43.3857 ]
+    },
+    "properties": {
+    "Town":"Comillas",
+    "ImageURL":"https://en.wikipedia.org/wiki/Comillas#/media/File:Vista_aerea_Comillas.jpg",
+    "Description1":"Comillas is 50 kilometres from Santander and is a designated historic-artistic site. It has cobbled streets and squares with ancestral houses, towers and Modernist style buildings.",
+    "Description2":"Special mention should be made of: \"El Capricho\", a building designed by Antoni Gaud�, with its unmistakable portico and ceramic wall decoration; Sobrellano Palace, a Neo-Gothic construction; the Pontifical University, which dominates the whole village. Comillas has fine sand beaches, perfect for water sports. Alongside the beach you will find Oyambre Nature Reserve, a large coastal area with dunes, cliffs, marshland and an estuary, with a wealth of bird life. We would recommend walks on the trails that run through the village."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.541,43.3752 ]
+    },
+    "properties": {
+    "Town":"Colombres",
+    "ImageURL":"https://es.wikipedia.org/wiki/Colombres_(Ribadedeva)#/media/Archivo:Plaza_del_Ayuntamiento,_Colombres.jpg",
+    "Description1":"Cliffs of spectacular beauty that are part of the Protected Landscape of the East Coast, a scenic balcony in Pimiango, the only one in Asturias where you can contemplate Urriellu Peak and the vastness of the Bay of Biscay at the same time, Pindal Cave - a listed Unesco World Heritage Site, with its nearby interpretation centre, and San Emeterio Chapel, all making up a treasury of truly striking natural beauty. After a good walk in the surroundings, the visitor can find Tina Monastery, whose ruins are testimony to a past of pilgrimages and devotion that still keeps alive the flame of spirituality and telluric energy in an area that has always been linked to the coastal branch of the Way of St James.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.754276738,43.41954464 ]
+    },
+    "properties": {
+    "Town":"Llanes",
+    "ImageURL":"https://en.wikipedia.org/wiki/Llanes#/media/File:Faro_llanes_asturias.jpg",
+    "Description1":"Llanes is a perfect example of a historic town. Its old town centre is an official historic and artistic heritage site, with interesting civil, religious and military architecture.",
+    "Description2":"Its most important areas are around Paseo de San Pedro, Paseo de San Ant�n, the river Carrocedo and the harbour - it was once an important part of the fishing and whaling industries. Its heritage buildings include 300 metres of city walls, dating from the 13th century; the castle tower; the Basilica of Santa Mar�a del Conceyu, which was begun in the mid-12th century; Gazta�aga palace and the palace of the Dukes of Estrada, and the house of the 19th-century politician Posada Herrera, now the Municipal Cultural Centre."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.069029635,43.46465222 ]
+    },
+    "properties": {
+    "Town":"Ribadesella",
+    "ImageURL":"https://en.wikipedia.org/wiki/Ribadesella#/media/File:Conjunto_Histórico_de_Ribadesella,_panorama2.jpg",
+    "Description1":"The distinctive feature of the urban layout of Ribadesella is the bridge that divides the fishing port in two, and which every first Saturday in August is the finishing line in most Asturias' most emblematic festival: the canoe descent of the Sella River. Its historic quarter has been declared Property of Cultural Interest.",
+    "Description2":"The historic town of Ribadesella was founded by King Alfonso X the Wise in the 13th century. It offers visitors an interesting mix of mediaeval town and Modernist architecture in addition to an outstanding beach area. The town has two clearly distinct parts: the east side with the old part of the city, and the west side, home of the Tito Bustillo cave, one of the treasures of European cave art."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.380446911,43.500017 ]
+    },
+    "properties": {
+    "Town":"Sebrayo",
+    "ImageURL":"https://es.wikipedia.org/wiki/Iglesia_de_Santa_Mar%C3%ADa_(Sebrayo)#/media/Archivo:Sebrayo_01_iglesia_Santa_Maria_by-dpc.jpg",
+    "Description1":"This tiny asturian village stands out for its charm and its landscape. It is the perfect place to escape from stress.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.6631,43.5453 ]
+    },
+    "properties": {
+    "Town":"Gij�n",
+    "ImageURL":"https://es.wikipedia.org/wiki/Gijón#/media/Archivo:Gijon-playa_san_lorenzo_y_Cimadevilla.JPG",
+    "Description1":"On the shores of the Cantabrian Sea, Gij�n offers an attractive combination of maritime tradition, monumental heritage and modern urban planning right on the seashore. Its marina is a testament to its close links with the sea throughout its history. It was shortlisted in the European Commission's EDEN programme (European Destinations of Excellence), in recognition of its sustainable tourism proposal.",
+    "Description2":"Its various major constructions date from the city's past as a Roman settlement, from its development in the 16th century when the Catholic monarchs decided to install a port here, and from the boom enjoyed by the area at the time of the Enlightenment, primarily thanks to Gaspar Melchor de Jovellanos."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.9228,43.5556 ]
+    },
+    "properties": {
+    "Town":"Avil�s",
+    "ImageURL":"https://en.wikipedia.org/wiki/Avilés#/media/File:Avilés,_Ayuntamiento,_Plaza_de_España.JPG",
+    "Description1":"It is situated on the central strip of the coastline of Asturias, to the west of the cape of Pe�as. An old seafaring and farming town, it is now a modern city and a major iron and steel centre, a product of demographic growth and the industrial boom.",
+    "Description2":"Avil�s is the third major city in the Principality of Asturias. Its historic quarter has been declared a Historic-Artistic Site, since it houses significant gems of civil and religious architecture. Some of the main attractions are the pedestrian streets of Galiana and Rivero, Plaza de Espa�a with its City Hall, the old church of Sabugo, from the 13th century, and the modern Santo Tom�s de Canterbury. In terms of civil architecture, Avil�s can boast the palaces of Valdecarzana and Camposagrado and the Palacio Vald�s theatre."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1048,43.5433 ]
+    },
+    "properties": {
+    "Town":"Muros de Nal�n",
+    "ImageURL":"https://es.wikipedia.org/wiki/Muros_de_Nalón#/media/Archivo:San_Esteban_de_Pravia.jpg",
+    "Description1":"Two important buildings in the municipality are the Palace of Valdecarzana and Vallehermoso and the Church of Santa Mar�a. It is possible to watch a panoramical view of the Asturian coast from the Mirador del Esp�ritu Santo.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.230970307,43.56185406 ]
+    },
+    "properties": {
+    "Town":"Soto de Lui�a",
+    "ImageURL":"https://es.wikipedia.org/wiki/Soto_de_Luiña#/media/Archivo:Soto_de_Luiña_(Cudillero,_Asturias).jpg",
+    "Description1":"Soto de Lui�a is one of nine parishes (administrative divisions) in the Cudillero municipality, within the province and autonomous community of Asturias, in northern Spain. The population is 505.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.389591362,43.54460302 ]
+    },
+    "properties": {
+    "Town":"Cadavedo",
+    "ImageURL":"https://es.wikipedia.org/wiki/Playa_de_Cadavedo#/media/Archivo:Cadavedo_Beach_(Asturias).jpg",
+    "Description1":"Cadavedo is a small village of the municipality of Vald�s, which has won the most beautiful village contest in Asturias. It has an idyllic landscape.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.532406928,43.54973285 ]
+    },
+    "properties": {
+    "Town":"Luarca",
+    "ImageURL":"https://es.wikipedia.org/wiki/Luarca#/media/Archivo:Luarca01.jpg",
+    "Description1":"Hidden on the Asturian coast, Luarca is a quiet town of white houses which preserves all the charm and attraction of its seafaring tradition.",
+    "Description2":"Built around an S-shaped cove sitting between sheer cliffs, the historic quarter of Luarca, its promenade and the port are all worth visiting. A small river divides the town in two, although several narrow bridges are there to unite it. Its most characteristic buildings are the lighthouse, the chapel of Atalaya and the cemetery overlooking the sea, cut from the rock by pickaxe and the final resting place of the remains of the Nobel laureate Severo Ochoa, a native of this town. Luarca's traditional character is reflected in its chigres -old Asturian taverns-, where visitors can learn the art of drinking cider."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.827090062,43.55065991 ]
+    },
+    "properties": {
+    "Town":"La Caridad",
+    "ImageURL":"https://es.wikipedia.org/wiki/La_Caridad_(Asturias)#/media/Archivo:La_Caridad_(El_Franco,_Asturias).jpg",
+    "Description1":"This tiny asturian village is located close to the coast and it has pretty beaches next to the center of the village. Similar to the surrounding area, its economy is based on ranching, agriculture and trading. The pilgrim will enjoy its gastronomy of first-class autochthonous products.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.037527,43.543965 ]
+    },
+    "properties": {
+    "Town":"Ribadeo",
+    "ImageURL":"https://es.wikipedia.org/wiki/Ribadeo#/media/Archivo:Ribadeo01.jpg",
+    "Description1":"The Ribadeo estuary forms a natural link between Galician territory and the neighbouring lands of Asturias on the opposite bank. On this deep estuary, formed by the river Eo, the main town is Ribadeo. The town's stately appearance can be seen from the nearby summit of mount Santa Cruz, where a popular pilgrimage is held every first Sunday in August and which has been declared to be of tourist interest because it is a celebration of traditional local cuisine and music.",
+    "Description2":"It is also a good idea to spare some time for As Catedrais, one of the most beautiful stretches of sand on the Galician coastline. Its rocks, which form natural arches resembling a cathedral, create a magical landscape which changes with the tides, the high point of a walk facing the open sea."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.298857,43.470603 ]
+    },
+    "properties": {
+    "Town":"Lourenz�",
+    "ImageURL":"https://gl.wikipedia.org/wiki/Lourenzá#/media/Ficheiro:Monasterio_de_San_Salvador_de_Lourenzá.jpg",
+    "Description1":"A pretty small village in the province of Lugo (part of Galicia). This village has all the necessary services for the pilgrim.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.4738,43.3659 ]
+    },
+    "properties": {
+    "Town":"Abad�n",
+    "ImageURL":"https://en.wikipedia.org/wiki/Abad%C3%ADn#/media/File:Ponte_Vella_de_Martiñán.jpg",
+    "Description1":"A charming small village with all the necessary services for the pilgrim. The landscape of the municipality of Abad�n is configured inside a fertile valley crossed by several rivers and streams and surrounded by mountains.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.681821,43.297831 ]
+    },
+    "properties": {
+    "Town":"Vilalba",
+    "ImageURL":"https://en.wikipedia.org/wiki/Vilalba#/media/File:PonteSaa_Vilalba.JPG",
+    "Description1":"It is one of the biggest villages in the province of Lugo (part of Galicia) and it has all the necessary services for the pilgrim.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.757054,43.174918 ]
+    },
+    "properties": {
+    "Town":"Baamonde",
+    "ImageURL":"https://es.wikipedia.org/wiki/Baamonde_(Begonte)#/media/Archivo:Begonte_Baamonde_Igrexa_de_Santiago_01.jpg",
+    "Description1":"This village is located at an important crossroads, being very well comunicated by road. The pilgram will have all the necessary services such as a hostel, four bars, a restaurant and a grocery store.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.022696,43.040139 ]
+    },
+    "properties": {
+    "Town":"Sobrado dos Monxes",
+    "ImageURL":"https://en.wikipedia.org/wiki/Sobrado_Abbey#/media/File:Monasterio_de_Sobrado_dos_Monxes_(2671916214).jpg",
+    "Description1":"Its main attaction is the monastery of Santa Maria, due to the great importance that had in the past. Nowadays, it is an important place for spirituality and the welcome of pilgrims.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.1625,42.926183 ]
+    },
+    "properties": {
+    "Town":"Arz�a",
+    "ImageURL":"https://es.wikipedia.org/wiki/Arzúa_(parroquia)#/media/Archivo:Igrexa_de_Santa_Mar%C3%ADa_de_Arzúa.JPG",
+    "Description1":"The Northern Way and the French Way join in Arz�a, having a large number of pilgrims in the village. There are just a few monuments and the buildings are mostly brand new. Its main attaction is the typical cheese of Arz�a.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.356991,42.912372 ]
+    },
+    "properties": {
+    "Town":"O Pedrouzo",
+    "ImageURL":"https://it.wikipedia.org/wiki/Pedrouzo#/media/File:Pino,_Arca,_Pedrouzo_01-01.JPG",
+    "Description1":"This is the last stop before getting to Santiago de Compostela. This is a very tiny village, having only very basic services at the pilgrim's disposal.",
+    "Description2":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.545249,42.880461 ]
+    },
+    "properties": {
+    "Town":"Santiago de Compostela",
+    "ImageURL":"https://es.wikipedia.org/wiki/Santiago_de_Compostela#/media/Archivo:Plaza_de_las_Plater%C3%ADas,_Santiago_de_Compostela,_España,_2015-09-22,_DD_15.jpg",
+    "Description1":"Santiago de Compostela is very much a living city, with many attractions for travellers, pilgrim or not: countless restaurants and bars where you can enjoy the delicious seafood of Galicia, a UNESCO World Heritage old town centre and daring contemporary art. There's plenty to do in this city which combines history with a younger modern side.",
+    "Description2":"Perhaps the most special place in Santiago is Plaza del Obradoiro. Life in the city seems to revolve around this point, the site of the Cathedral, Raxoi Palace, and the luxurious Hostal de los Reyes Cat�licos, said to be the world's oldest hotel. On this square you are likely to see pilgrims with their inevitable walking sticks and scallop shells. There is a ritual for visiting the Cathedral for the first time: admire the Portico de la Gloria, embrace the figure of St. James on the main altar, go down to the crypt, go up to the rooftop (what a view!) and if you are lucky, see the botafumeiro (an enormous censer) in action� they only use it on religious holidays or if requested in advance."
+    }
+  }
+]
+}
