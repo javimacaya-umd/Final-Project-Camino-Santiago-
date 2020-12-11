@@ -370,11 +370,11 @@
 
             var feature = features[0];
 
-            var popup = new mapboxgl.Popup({ offset: [-60, -30] })
+            var popup = new mapboxgl.Popup({ offset: [-60, -80] })
                 .setLngLat(feature.geometry.coordinates)
             
                 // Solved issue with links not working in popups, source:https://gis.stackexchange.com/questions/279205/how-to-add-links-to-popups-in-mapbox-gl-js
-                .setHTML('<h3>' + feature.properties.Town + '</h3><img src="' + feature.properties.ImageURL + 'alt="" width="100px" height="100px"><p>' + feature.properties.Description1 + '</p><p>' + feature.properties.Description2 + '</p>')
+                .setHTML('<h3>' + feature.properties.Town + '</h3><img src="' + feature.properties.ImageURL + '" alt="" style="width:100%; height:100px;"><p>' + feature.properties.Description1 + '</p><p>' + feature.properties.Description2 + '</p>')
                 .addTo(map);
         });
     </script>
