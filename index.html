@@ -144,13 +144,12 @@
     <style>
         .mapboxgl-popup {
             min-width: 310px;
-            /* max-width: 400px; */
+            max-width: 400px;
             font: 12px/20px 'Didot', Helvetica, sans-serif;        
         }
         .mapboxgl-popup-content {
             color: white;
             background-color: #444;
-            opacity: inherit;
         }
     </style>
     
@@ -370,7 +369,7 @@
 
             var feature = features[0];
 
-            var popup = new mapboxgl.Popup({ offset: [-60, -80] })
+            var popup = new mapboxgl.Popup({ offset: [-70, -90] })
                 .setLngLat(feature.geometry.coordinates)
             
                 // Solved issue with links not working in popups, source:https://gis.stackexchange.com/questions/279205/how-to-add-links-to-popups-in-mapbox-gl-js
