@@ -594,7 +594,7 @@ var config = {
             description: 'You will start in Muros and walk towards El Pito through a local road after crossing the train rails. Visit La Quinta de Selgas is a must, it is a palace surrounded by a lovely garden. This path will lead you to a stream called San Roque. You will have to return again to the national road N-632 in El Manto. You will have to return to a path that will lead you again to a stream, this time to one called Santa Ana in Rellayo. You will have to return again to the national road N-632 in El Manto. You are close to Soto de Luiña you just have to walk through some roads and rural paths to get to La Fontona, where you will return to the N-632. You are close to Soto de Luiña you just have to walk through some roads and rural paths to get to La Fontona, where you will return to the N-632.',
             scrollDown: 'scroll-arrow.png',
             location: {
-                center: [-6.07829, 43.52531],
+                center: [-6.07829, 43.50531],
                 zoom: 11.60,
                 pitch: 40.00,
                 bearing: 0.00     
