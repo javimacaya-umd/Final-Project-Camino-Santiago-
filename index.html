@@ -135,6 +135,47 @@
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
             touch-action: unset;
         }
+        
+        /* Styling the Indication Panel for Click, adapted from source: view-source:https://kristofj-umd.github.io/webdev-f19/assignments/webdev1-floatingpanel.html */
+        .indication-panel-click {
+            width: 603px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 9999;
+            top: 70px;
+            left: 380px;
+            background-color: #1b479d;       /* rgba(255, 255, 255, 0.8); White with some transparency */
+            border-radius: 10px; /* some nice rounded corners */
+            padding: 10px;
+            margin: 10px;
+            color: #e9bf1e;                   /* #e92525; text color */
+            font-family: Didot;
+        }
+        /* Styling the Indication Panel for Zoom, adapted from source: view-source:https://kristofj-umd.github.io/webdev-f19/assignments/webdev1-floatingpanel.html */
+        .indication-panel-zoom {
+            width: 265px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 9999;
+            top: 70px;
+            left: 60px;
+            background-color: #1b479d;         /* rgba(255, 255, 255, 0.8); White with some transparency */
+            border-radius: 10px; /* some nice rounded corners */
+            padding: 10px;
+            margin: 10px;
+            color: #e9bf1e;                             /* #e92525; text color */
+            font-family: Didot;
+        }
+        
+        .indication-panel-click  * {
+            padding: 6px;
+            text-decoration: none;
+            display: inline;
+        } 
+        
+        .indication-panel-zoom * {
+            padding: 6px;
+            text-decoration: none;
+            display: inline;
+        }
     </style>
 </head>
 
@@ -155,6 +196,17 @@
     
     <div id="map"></div>
     <div id="story"></div>
+    
+    <! -- Indication Panel for Click, adapted from source: view-source:https://kristofj-umd.github.io/webdev-f19/assignments/webdev1-floatingpanel.html -->
+    <nav class="indication-panel-click">
+        <h4>For more information: click on the town name where each stage starts and ends</h4>
+    </nav>
+    
+    <! -- Indication Panel for Zoom, adapted from source: view-source:https://kristofj-umd.github.io/webdev-f19/assignments/webdev1-floatingpanel.html -->
+    <nav class="indication-panel-zoom">
+        <h4>For more detail: use zoom buttons</h4>
+    </nav>
+    
     <script src="./config.js"></script>
     <script>
         var layerTypes = {
