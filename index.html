@@ -48,7 +48,7 @@
             margin-top: 10px;
         }
         /* Moving author in the header to the right */
-        #header p {
+        #header h5 {
             float: right;
             margin-right: 50px;
             margin-top: 20px;
@@ -176,6 +176,15 @@
             text-decoration: none;
             display: inline;
         }
+        
+        /* Styling titles for popups and information stage panel */
+        h3, h5, h1 {
+            font-family: Luminari;
+            color: #e9bf1e;
+        }
+        h5 {
+            font-size: 16px;
+        }
     </style>
 </head>
 
@@ -268,7 +277,7 @@
         }
 
         if (config.byline) {
-            var bylineText = document.createElement('p');
+            var bylineText = document.createElement('h5');
             bylineText.innerText = config.byline;
             header.appendChild(bylineText);
         }
