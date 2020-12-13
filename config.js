@@ -24,13 +24,13 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [
+            onChapterEnter: [ 
                  // {
                  //    layer: 'layer-name',
                  //    opacity: 1
                  // }
             ],
-            onChapterExit: [
+            onChapterExit: [ 
                  // {
                  //     layer: 'layer-name',
                  //     opacity: 0
