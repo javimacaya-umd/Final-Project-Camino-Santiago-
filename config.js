@@ -19,8 +19,8 @@ var config = {
             description: 'The Way of Saint James (El Camino de Santiago), is a pilgrimage of Medieval Origin to the Cathedral of Santiago de Compostela in Galicia, in the Northwest of Spain. Legend has it that the remains of the Apostle Saint James the Great were buried here and discovered by a shepherd in the 9th century. The city is, in fact, named after the apostle: Santiago de Compostela means Saint James of the Field of Stars. The Way of Saint James has been listed as UNESCO World Heritage for its important role encouraging cultural exchanges between people from all over Europe and the world for many centuries. Today, more than a pilgrimage, the Way of Saint James, is a unique experience and trip of a lifetime and the routes attract thousands of people from all over the world.',
             scrollDown: 'scroll-yellow-blue.png',
             location: {
-                center: [2.305, 40.602],
-                zoom: 5.50,
+                center: [2.305, 40.597],
+                zoom: 5.60,
                 pitch: 0.00,
                 bearing: 0.00
             },
@@ -44,8 +44,8 @@ var config = {
             description: 'The Way of Saint James is a unique journey, and it is both a cultural and a physical adventure. There are many different routes, all of them taking pilgrims to Santiago de Compostela and all with their own unique history, heritage and charm. Embarking on this walk you will get your pilgrim passport before you begin and collect stamps along the way to receive your Compostela at the end, which is the accreditation of the pilgrimage to the Tomb of Saint James. Among all the routes, The Northern Way is the one explained here. The Northern Way goes along the wonderful Northern coast of ‘Green Spain’ from the Basque Country, across Cantabria, Asturias and on to Santiago de Compostela, in Galicia. Along this coastal route, you will discover fascinating cities and fishing villages, swim in beautiful sandy beaches and taste delicious seafood. The Northern Way is the third most popular route to Santiago de Compostela, according to information gathered by the Pilgrim’s Office in Santiago. It is a great alternative for first-time pilgrims who strive to get away from the crowd while still benefiting from the well-developed service infrastructure along the way. It is the longest route with 829 km in total and 34 stages. All the 34 stages are described here.',
             scrollDown: 'scroll-yellow-blue.png',
             location: {
-                center: [2.305, 40.602],
-                zoom: 5.50,
+                center: [2.305, 40.597],
+                zoom: 5.60,
                 pitch: 0.00,
                 bearing: 0.00
             },
